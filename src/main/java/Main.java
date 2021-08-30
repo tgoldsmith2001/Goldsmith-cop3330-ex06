@@ -14,7 +14,6 @@ public class Main {
         String Str2=input.nextLine();
         int a= Integer.parseInt(Str1);
         int b= Integer.parseInt(Str2);
-        //gets current year starting from 1900
         int year= LocalDate.now().getYear();
         if(a>b)
             System.out.println("Congratulations you can retire already!");
